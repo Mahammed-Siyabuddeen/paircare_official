@@ -24,7 +24,7 @@ export default function Home() {
       <div>
         <Navbar />
         <div id='Home' className="header">
-          <img src="./images/paicare_services.jpg" alt="paicare_services" />
+          <Image   fill src="/images/paicare_services.jpg" alt="paicare_services" />
           <div className="foreheader">
             <h1>Paircare services </h1>
             <div>

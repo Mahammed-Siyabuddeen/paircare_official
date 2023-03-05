@@ -29,8 +29,8 @@ function Testimonial({imagesSrc}) {
                     }}
                 >
                     {
-                        imagesSrc?.map((url)=>(
-                            <Paper elevation={3} >
+                        imagesSrc?.map((url,index)=>(
+                            <Paper key={index} elevation={3} >
                             <Image src={url} alt='wasingmachine_services'
                                 width={400}
                                 height={350}

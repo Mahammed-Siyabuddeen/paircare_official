@@ -1,6 +1,7 @@
 import Contact from '@/components/contact';
 import Navbar from '@/components/navbar';
 import { LocationOn } from '@mui/icons-material';
+import Image from 'next/image';
 import { useRouter } from 'next/router'
 import React, { useEffect } from 'react'
 
@@ -13,7 +14,7 @@ function Custom404() {
         <div>
             <Navbar />
             <div id='Home' className="header">
-                <img src="./images/paicare_services.jpg" alt="paicare_services" />
+                <Image fill src="/images/paicare_services.jpg" alt="paicare_services" />
                 <div className="foreheader">
                     <h1>Paircare services </h1>
                     <div>
