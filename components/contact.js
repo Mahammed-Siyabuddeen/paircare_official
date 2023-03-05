@@ -37,7 +37,7 @@ function Contact() {
         <form ref={formRef} className={style.form} id="form" onSubmit={handleSubmit}>
           <input required type="text" name="name" placeholder="name" />
           <br />
-          <input type="tel" name="phoneNumber" value={9089090867} placeholder="phoneNumber" pattern="[0-9]{10}" required />
+          <input type="tel" name="phoneNumber"  placeholder="phoneNumber" pattern="[0-9]{10}" required />
           <br />
           <input type="text" name="address" placeholder="Address" />
           <br />
