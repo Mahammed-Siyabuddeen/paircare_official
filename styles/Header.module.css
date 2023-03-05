@@ -1,0 +1,50 @@
+.colRefrigearator {
+    background-size: cover;
+    background-image: url('/images/refrigarator/img1');
+    height: 500px;
+    display: flex;
+    width: 100%;
+}
+.colWashingmachine {
+    background-image: url('https://concordkolkata.com/washingmachine/wp-content/uploads/sites/4/2020/04/intex-washing-machine-1.jpg');
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    width: 100%;
+}
+
+.content {
+    color: #024B8F;
+    padding-top: 130px;
+    height: 230px;
+    padding-left: 10%;
+
+}
+
+.content p {
+    max-width: 400px;
+}
+
+.title {
+    font-weight: 800px;
+    font-size: 3rem;
+    padding-bottom: 0.3rem;
+
+}
+
+.call_div {
+    margin: 25px;
+    width: 180px;
+}
+
+.call_container {
+    text-align: center;
+    padding: 12px 0px;
+    border-radius: 12px;
+    background-color: #024B8F;
+
+}
+
+.call_container:hover {
+    background-color: #e6e0e0cc;
+}

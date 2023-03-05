@@ -1,0 +1,15 @@
+.TestimonialContainer{
+  text-align: center;
+}   
+.TestimonialImages{
+    display: flex;
+    justify-content: space-evenly;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}   
+.Image{
+  flex: 2.5;
+  margin: 10px;
+}      

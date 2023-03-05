@@ -1,0 +1,9 @@
+.images{
+    height: 500px;
+    z-index: 0;
+}
+
+.landingtext{
+    position: relative;
+    z-index: 1;
+}

@@ -1,0 +1,26 @@
+/* footer*/
+
+.footer{
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+  }
+  .footer_container>div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1300px;
+    margin:  auto;
+    padding: 20px ;
+  
+  }
+  .footer_details{
+    color: #fff;
+    line-height: 20px;
+  }
+  .footer_details>p{
+    font-weight: bold;
+  }
+  .footer_container>p{
+    padding: 20px;
+  }

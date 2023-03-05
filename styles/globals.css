@@ -1,0 +1,143 @@
+
+*{
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.logo-h1{
+  color: #ccd8dd;
+  font-size: 20px;
+  text-shadow: 3px 3px 3px #ce3c3c ,;
+}
+
+.navbar{
+  display: flex;
+  width: 100%;
+  margin-right: 0;
+  text-align: center;
+  background: #024B8F;
+}
+.logo{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 80px;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  margin-right: 0;
+  text-align: center;
+  background: #024B8F;
+}
+nav{
+  flex: 1;
+  text-align: right;
+
+}
+nav ul{
+
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+  
+  display: inline-block;
+  padding: 20px;
+
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+.header{
+  height: 70vh;
+  position: relative;
+}
+.header>img{
+  height: 70vh;
+  width: 100%;
+  object-fit: fill;
+}
+.foreheader{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+
+}
+.foreheader>h1{
+  font-size: 48px;
+  font-weight: 800;
+  color: #fff;
+  font-family: axiforma-semiBold,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+
+}
+.foreheader>div{
+  font-weight: bold;
+  margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    color: white;
+    background: #000;
+    padding: 5px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.services_container{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.about_container{
+  margin: 50px 0px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+.about_container>h2{
+  padding: 50px 0px;
+}
+.about_container>h2>span{
+  color: rgb(230, 18, 18);
+}
+.about_container>p{
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 0;
+}
+
+/* form */
+input[type=text],
+  input[type=tel] {
+    width: 95%;
+    background-color: #f8f7f7;
+    margin-top: 2%;
+    height: 51px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+    color: #000;
+  
+  }
+  .fixed_call_container{
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    height: 60px;
+    width: 60px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  .fixed_call_container>div{
+    width:25px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .ServicesH2{
+    color: #000;
+  }
