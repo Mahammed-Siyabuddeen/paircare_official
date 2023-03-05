@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React, { useState } from 'react'
-import style from '../styles/Navbar.module.css'
+import style from '../styles/navbar.module.css'
 function Navbar() {
     const [open, setOpen] = useState(false)
     const router=useRouter()
