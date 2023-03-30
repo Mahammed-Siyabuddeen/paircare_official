@@ -53,7 +53,7 @@ export default function Home() {
             '& > :not(style)': {
               m: 1,
               width: 300,
-              height: 350,
+              paddingBottom:2,
             },
           }}>
             <Paper elevation={3} >

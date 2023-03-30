@@ -30,7 +30,7 @@ function Testimonial({imagesSrc}) {
                 >
                     {
                         imagesSrc?.map((url,index)=>(
-                            <Paper key={index} elevation={3} >
+                            <Paper key={index} elevation={3}  className="image_container">
                             <Image src={url} alt='wasingmachine_services'
                                 width={400}
                                 height={350}
