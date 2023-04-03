@@ -13,11 +13,14 @@
 .navbarHeading {
     padding-top: 10px;
 }
+.list{
+    display: flex;
+    align-items: center;
+}
 
 .listItem {
     display: inline;
     margin-left: 30px;
-    font-size: 14px;
 }
 
 .menu {
@@ -27,9 +30,9 @@
     display: none;
     position: fixed;
     width: 50vw;
-    height: calc(100vh - 50px);
+    height: 60%; 
     background-color: #024B8F;
-    top: 0px;
+    top: 70px;
     /* right: 0px; */
     z-index: 9999;
     margin: 0;
@@ -39,13 +42,18 @@
     list-style: none;
     transition: all 1s ease;
 }
+.fixedPosition{
+    position: fixed;
+    width: 90%;
+
+}
 @media screen and (max-width: 480px) {
     .list {
         display: none;
     }
 
     .container {
-        padding: 0 20px;
+        padding: 0 5%;
     }
 
     .menu {
@@ -55,7 +63,7 @@
         cursor: pointer;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     .line {
         width: 100%;
@@ -71,6 +79,7 @@
         justify-content: space-around;
     }
     .menuItem{
+        padding: 10px 0;
         color: black;
     }
 

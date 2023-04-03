@@ -89,7 +89,9 @@
     margin-top: 0px;
 
 }
-
+.col2 p{
+    font-size: 20px;
+}
 .col2 img {
     width: 100%;
     padding: 20px 0;

@@ -9,10 +9,10 @@ function Navbar() {
     const router=useRouter()
     console.log(router);
     return (
-        <div className={style.container}>
+        <div className={`${style.container} ${open && style.fixedPosition}`} >
             <div onClick={() => setOpen(false)} >
                 <Link href={'/'}><Image src="/log-1.jpg" width={100} height={80} alt="paircare" /></Link>
-            </div>
+            </div>           
             <ul className={style.list}>
                 <li className={style.listItem}>
                     <Link href={'#Contacts'}>Contacts</Link>
